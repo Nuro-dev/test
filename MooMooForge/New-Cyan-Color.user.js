@@ -54,7 +54,7 @@
     // Add cyan color to the skinColor array
     createHook(Object.prototype, "skinColors", function(that, symbol, value) {
         delete Object.prototype.skinColors;
-        that.skinColors = [...value, "#91B2DB"];
+        that.skinColors = [...value, "#EBAB2C"];
     })
 
     // When choosing a color, replace index with "toString", so server will cause some error that will make your color cyan
